@@ -1,9 +1,12 @@
+import { Routes, Route } from "react-router-dom";
+import Header from "./ui/headers/Header";
+import RoutesAll from "./routes/RoutesAll";
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>HELLO</h1>
-      </header>
+      <Header />
+      <RoutesAll />
     </div>
   );
 }
